@@ -29,5 +29,9 @@ namespace Polito.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<Polito.Models.Ciudad> Ciudads { get; set; }
+
+        public System.Data.Entity.DbSet<Polito.Models.Departamento> Departamentoes { get; set; }
     }
 }
